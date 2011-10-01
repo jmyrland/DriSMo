@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutTxt1">\nDriSMo was created as a bachelor project at Gjøvik University College in 2011.
+                             It started out as a fun idea of determining driving skills, to end discussions about
+                             who is the best driver. Since then the idea has evolved, and our application is not only
+                             taking skills into consideration.\n\nDriSMo will measure the driving quality, and will
+                             therefore also take the quality of the road and your car into the equation.</string>
+    <string name="aboutTxt2">Licence:\nGNU GPLv3\n\nDevelopers:\nJørn-André Myrland\nFredrik Hørtvedt\nFredrik
+                             Kvitvik\n\nThanks to:\n • Qberticus and Lorensius W.L.T for initial work on the quick
+                             action menu.\n • The osmdroid project @ http://code.google.com/p/osmdroid/, for the OSM
+                             to MapView library.\n • Arno den Hond @ http://www.arnodenhond.com/ for the base of the
+                             score graph.\n • Sissi @ http://www.androidsnippets.com/ for the app.
+                             rater.\n • Steffen Luypaert for his tutorial on Facebook integration.\n</string>
+
+    <string name="autoReplyInfoTxt">DriSMo lets you preset a custom message, which will be sent as an automatic reply
+                                    to incoming calls and/or messages. \n\nNote: The message is only
+                                    sent one time per recipient. However, if you change the message during runtime,
+                                    the new message will be sent one time as well.\n\nStandard text message
+                                    rates apply.</string>
+    <string name="autoReplyInfoHeading">What\'s This?</string>
+
+    <string name="tutorialContent0_1">Thank you\nfor downloading </string>
+    <string name="tutorialContent0_2">the driving quality monitor.</string>
+    <string name="tutorialContent0_3">Browse through this short tutorial to learn how to use our application.</string>
+    <string name="tutorialContent1_1">First, some general advice: </string>
+    <string name="tutorialContent1_2">We recommend having your device connected to a charger while using the
+                                      application, especially on long trips, as it requires relatively much battery
+                                      power.\n\nIt is also a good idea to remember to enable 3G on your device before
+                                      you start driving, if you are planning on using our map service.\n\nTo get
+                                      accurate results, you should avoid calibrating the device when you\'re
+                                      in a slope.</string>
+    <string name="tutorialContent2_1">Quick Action Menu</string>
+    <string name="tutorialContent2_2">By pressing and holding an archive list item, you reveal the quick action
+                                      menu. This enables you to do simple tasks such as renaming or deleting trip files,
+                                      but also has some features to connect with external environment.</string>
+    <string name="tutorialContent2_3">When sharing the trip to Facebook, you post a short trip summary to your wall.
+                                      This also includes where you started and ended your trip, if such data
+                                      is available.\n\nThe export option can send the .csv-file to another application
+                                      on your device, so you may do your own analysis of the collected data.</string>
+    <string name="tutorialContent3_1">Share To Facebook</string>
+    <string name="tutorialContent3_2">When you\'re viewing your trip, you have access to both a graph and a map that
+                                      visualizes the quality of the drive. If you press the device menu button
+                                      when watching one of those screens, you can share it to Facebook.\n\nWe use the
+                                      \"what you see is what you get\" principle here. This means that a replica
+                                      of your screen will be uploaded to your Facebook profile, along with a short text
+                                      summary of the trip. So, make sure to adjust your map as you would like it to be
+                                      displayed, before you hit the Facebook button.</string>
+    <string name="tutorialContent4_1">Quality</string>
+    <string name="tutorialContent4_2">The quality of driving is based on three factors;
+                                      The driver, the vechicle and the environment\n\nIf
+                                      two drivers want to compare skills, they can do so by
+                                      removing 2 of the factors. In other words, use the same car
+                                      in the same environment.</string>
+    <string name="tutorialContent5_1">Views</string>
+    <string name="tutorialContent5_2">Before (or while) monitoring, you can change the monitor view.
+                                      You can also set your favorite in the application settings.
+                                      This is the DriSMo-meter view:</string>
+    <string name="tutorialContent5_3">Notice the colors representing each quality state.</string>
+    <string name="tutorialContent6_1">Get ready...</string>
+    <string name="tutorialContent6_2">Place the phone in a fixed position in your vehicle.</string>
+    <string name="tutorialContent7_1">Set...</string>
+    <string name="tutorialContent7_2">When you are set to go, touch the calibration screen
+                                      to calibrate the phone according to the vehicle.</string>
+    <string name="tutorialContent8_1">GO!</string>
+    <string name="tutorialContent8_2">To ensure accuracy,</string>
+    <string name="tutorialContent8_3">do not move the phone</string>
+    <string name="tutorialContent8_4">from it\'s fixed position.</string>
+    <string name="tutorialContent8_5">To finish/end monitoring, simply hit the back button.</string>
+
+    <string name="regional">Regional</string>
+    <string name="language">Language</string>
+    <string name="selectLanguage">Select application language.</string>
+    <string name="english">English</string>
+    <string name="norwegian">Norsk</string>
+    <string name="performance">Performance</string>
+    <string name="powerSaver">Enable Power-saver</string>
+    <string name="powerSaverDesc">Reduce application battery usage.</string>
+    <string name="monitor">Monitor</string>
+    <string name="standardMonitor">Standard Monitor</string>
+    <string name="selectMonitor">Select your preferred monitor style.</string>
+    <string name="logGpsPos">Log GPS-position</string>
+    <string name="putTripOnMap">Put your trip on the map.</string>
+    <string name="communication">Communication</string>
+    <string name="drismoMessenger">DriSMo Messenger</string>
+    <string name="sendAutoReplies">Send automatic SMS-replies.</string>
+    <string name="replyToSms">Reply to SMS</string>
+    <string name="autoReplyToSms">Auto-reply to incoming SMS-message.</string>
+    <string name="replyToCall">Reply to Call</string>
+    <string name="autoReplyToCalls">Auto-reply to incoming calls.</string>
+    <string name="thisIsYourReplyMsg">This is your auto-reply message.</string>
+    <string name="whatsThis">What is this?</string>
+    <string name="getSettingsInfo">Get more info about these settings.</string>
+    <string name="message">Message</string>
+    <string name="autoReplyMessage">This is a preset message, distributed automatically by DriSMo.</string>
+    <string name="about">About</string>
+    <string name="prefs">Preferences</string>
+    <string name="archive">Archive</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Finish</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="deleteAll">Delete All</string>
+    <string name="delAllTripData">This will delete ALL trip data.\n\nAre you sure?</string>
+    <string name="noTripData">No trip data is available.</string>
+    <string name="beenDeleted">has been deleted!</string>
+    <string name="unableToDelete">Unable to delete</string>
+    <string name="unableToDeleteAll">Unable to delete all data.</string>
+    <string name="rename">Rename</string>
+    <string name="renameFailed">Rename failed!</string>
+    <string name="renameSuccess">File was renamed successfully.</string>
+    <string name="newFileName">Your new filename:</string>
+    <string name="fileNameInUse">Filename already in use.</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="settings">Settings</string>
+    <string name="delTripData">Are you sure you want to delete this trip data?</string>
+    <string name="calibrating">Calibrating</string>
+    <string name="deviceCalibrated">"Device calibrated!"</string>
+    <string name="calibrate">Touch screen to calibrate the device</string>
+    <string name="doNotMoveWhileCalibrating">Do not move the device</string>
+    <string name="SDunavailable">SDCard unavailable!</string>
+    <string name="error">Error</string>
+    <string name="turnOnGps">Forgot to turn on the GPS?\nYour settings says you want it.</string>
+    <string name="primitive">Primitive</string>
+    <string name="wheel">Wheel</string>
+    <string name="map">Map</string>
+    <string name="graph">Graph</string>
+    <string name="sentSms">Auto-SMS has been sent.</string>
+    <string name="tooLong">Ooops.. too long!</string>
+    <string name="maxLength">Max. message length:</string>
+    <string name="yourLength">Your message length:</string>
+    <string name="croppedMsg">Cropped message:</string>
+    <string name="deletingTrips">Deleting trips</string>
+    <string name="pleaseWait">Please wait...</string>
+    <string name="timestampUnavailable">timestamp unavailable</string>
+    <string name="averageSpeed">Avg. Speed:</string>
+    <string name="maxSpeed">Max. Speed:</string>
+    <string name="excellentDriving">Excellent Driving:</string>
+    <string name="goodDriving">Good Driving:</string>
+    <string name="okDriving">OK Driving:</string>
+    <string name="badDriving">Bad Driving:</string>
+    <string name="averageQuality">Quality Rating:</string>
+    <string name="totalDuration">Total Duration:</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="noGpsTrip">You don\'t have any GPS data for this trip.</string>
+    <string name="noGpsActive">GPS not activated.</string>
+    <string name="waitingForGps">Waiting for GPS position. \nThis may take a while...</string>
+    <string name="keepVehicleStill">Keep vehicle still..</string>
+    <string name="driveVehicleForward">Drive vehicle forward..</string>
+    <string name="aboutInfo">Read more about the application.</string>
+    <string name="info">Information</string>
+    <string name="shortInfo">Info</string>
+    <string name="upload">Upload</string>
+    <string name="export">Export</string>
+    <string name="showThresholds">Show Thresholds</string>
+    <string name="hideThresholds">Hide Thresholds</string>
+    <string name="trip">Trip</string>
+    <string name="durationUnavailable">duration unavailable</string>
+    <string name="tripLength">Trip length:</string>
+    <string name="dimScreen">Dim Screen</string>
+    <string name="dimScreenDesc">Allow dimmed screen while monitoring.</string>
+    <string name="calibrateInstruction1">Attach your device in a fixed position.</string>
+    <string name="calibrateInstruction2">Keep the vehicle still, and tap the screen to start calibrating.
+                                         Start driving when given the signal.</string>
+    <string name="speedUnit">Speed Unit</string>
+    <string name="speedUnitDesc">Select preferred speed unit.</string>
+    <string name="noInfo">No info available.</string>
+    <string name="km_h">km/h</string>
+    <string name="m_s">m/s</string>
+    <string name="mph">mph</string>
+    <string name="share">Share</string>
+    <string name="shareOnFacebook">Do you want to share a summary of this trip on Facebook?</string>
+    <string name="fbMessagePosted">Message posted to your facebook wall.</string>
+    <string name="wallPostCancelled">Wall post cancelled!</string>
+    <string name="wallPostFailed">Failed to post to wall!</string>
+    <string name="fbAuthFailed">Authentication with Facebook failed!</string>
+    <string name="fbAuthCancelled">Authentication with Facebook cancelled!</string>
+    <string name="defaultFbShare">Check out this awesome driving skill monitor for android:
+                                  https://market.android.com/details?id=com.drismo</string>
+    <string name="duration">Duration:</string>
+    <string name="distance">Distance:</string>
+    <string name="myDrivingQuality">My driving quality</string>
+    <string name="loading">Loading...</string>
+    <string name="noGpsDataAvailable">No GPS-data available</string>
+    <string name="between">between</string>
+    <string name="and">and</string>
+    <string name="was">was</string>
+    <string name="uploading">Uploading...</string>
+    <string name="hasBeenShared">Trip has been shared.</string>
+    <string name="problemUpload">Something went wrong during the upload.</string>
+    <string name="problemGraph">Could not generate graph image.</string>
+    <string name="generatingGraph">Generating graph...</string>
+    <string name="currentlyMonitoring">Currently monitoring driving quality.</string>
+    <string name="monitoringQuality">Monitoring driving quality</string>
+    <string name="audioFeedback">Audio Feedback</string>
+    <string name="enableTTS">Enable Text-To-Speech</string>
+    <string name="enableTTSDesc">Get current quality via text to speech.</string>
+    <string name="feedbackFrequency">Feedback Frequency</string>
+    <string name="feedbackFrequencyDesc">How often you get audio feedback.</string>
+    <string name="every1min">Every minute</string>
+    <string name="every5min">Every 5 minutes</string>
+    <string name="every10min">Every 10 minutes</string>
+    <string name="loadingTrips">Loading trips...</string>
+    <string name="gpsNotAvailable">- GPS-data not available -</string>
+    <string name="previous">Previous</string>
+    <string name="menuToChangeMonitor">Press the menu button to choose another monitor.</string>
+
+</resources>

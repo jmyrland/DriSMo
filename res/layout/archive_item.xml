@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="10dp">
+
+  	<ImageView
+  		android:id="@+id/drismoD"
+  		android:layout_alignParentLeft="true"
+  		android:layout_width="wrap_content"
+  		android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:paddingRight="20dp"
+  		android:src="@drawable/img_archive_d"/>
+
+    <TextView
+        android:id="@+id/listItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/drismoD"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/listItemDura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/drismoD"
+        android:layout_below="@id/listItemName"
+        android:textSize="12sp"
+        android:text="@string/durationUnavailable"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+    />
+
+    <TextView
+        android:id="@+id/listItemDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/drismoD"
+        android:layout_below="@id/listItemDura"
+        android:textSize="12sp"
+        android:text="@string/timestampUnavailable"
+        android:singleLine="true"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+    />
+
+</RelativeLayout>

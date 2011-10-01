@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aboutTxt1">\nDriSMo ble laget i forbindelse med et bachelorprosjekt ved Høgskolen i Gjøvik i 2011.
+                             Det hele started med en idé om at det kunne vært morsomt å la folk bevise hvem som er den
+                             beste sjåføren, en gang for alle.\n\nEtterhvert som prosjektet kom i gang, hadde idéen
+                             utviklet seg. Det ble snakk om flere faktorer enn bare dyktighet, og man gikk dermed over
+                             til å snakke om kjørekvalitet. Applikasjonen tar hensyn til variasjoner i forhold til
+                             både kjøretøy og vei.</string>
+    <string name="aboutTxt2">Lisens:\nGNU GPLv3\n\nUtviklere:\nJørn-André Myrland\nFredrik Hørtvedt\nFredrik
+                             Kvitvik\n\nTakk til:\n • Qberticus and Lorensius W.L.T for det grunnleggende arbeidet på
+                             hurtigmenyen i arkivet. \n • osmdroid-prosjektet @ http://code.google.com/p/osmdroid/, for
+                             OSM til MapView-biblioteket.\n • Arno den Hond @ http://www.arnodenhond.com/ for basisen
+                             til resultat-grafen.\n • Sissi @ http://www.androidsnippets.com/ for app.
+                             rater.\n • Steffen Luypaert for veiledning og kode ifbm. Facebook-integrasjon.\n</string>
+
+    <string name="autoReplyInfoTxt">Med DriSMos egen meldingstjeneste kan du forhåndsinnstille en melding som vil bli
+                                    sendt som automatisk svar på innkommende meldinger og/eller anrop.\n\nMerk:
+                                    Meldingen blir bare sendt én gang per mottaker, med unntak av når meldingen blir
+                                    endret underveis. Da vil den nye meldingen også sendes ut en gang.\n\nDu vil
+                                    belastes ordinær pris for tekstmeldinger fra din teleoperatør.</string>
+
+    <string name="tutorialContent0_1">Takk for at\ndu lastet ned</string>
+    <string name="tutorialContent0_2">Din kjørekvalitets-monitor.</string>
+    <string name="tutorialContent0_3">Bla gjennom denne korte veiledningen,
+                                      for å lære mer om hvordan applikasjonen fungerer.</string>
+    <string name="tutorialContent1_1">Først, noen generelle tips: </string>
+    <string name="tutorialContent1_2">Vi anbefaler å ha enheten tilkoblet en lader når du benytter applikasjonen,
+                                      spesielt på lengre turer, da det krever relativt mye av batteriet.\n\nDet kan
+                                      også være lurt å forhåndsaktivere 3G på enheten, hvis du har planer om å bruke
+                                      monitoren med kart.\n\nFor å få nøyaktige resultater bør du ikke kalibrere enheten
+                                      mens bilen står i helling.</string>
+    <string name="tutorialContent2_1">Hurtigvalg-meny</string>
+    <string name="tutorialContent2_2">Ved å trykke og holde et element i arkivet, får du tilgang på en hurtigvalg-meny.
+                                      Denne menyen lar deg gjøre enkle oppgaver, som å endre navn eller slette filer.
+                                      Du kan også velge å dele kjøreturen på Facebook, eller eksportere den til en
+                                      ekstern applikasjon.</string>
+    <string name="tutorialContent2_3">Når du deler en kjøretur på Facebook, vil en kort oppsummering av turen bli
+                                      postet på veggen din. Dette inkluderer også hvor du startet og avsluttet turen,
+                                      hvis denne informasjonen er tilgjengelig.\n\nEksporterings-valget lar deg sende
+                                      den lagrede .csv-fila til en ekstern applikasjon. Videre gir dette deg muligheten
+                                      til ytterligere analyse av innsamlet data på egen hånd.</string>
+    <string name="tutorialContent3_1">Del på Facebook</string>
+    <string name="tutorialContent3_2">Når du er inne og ser på en kjøretur i etterkant, har du muligheten til å se
+                                      turens kvalitet, enten visualisert på et kart, som en graf, eller bare ren tekst.
+                                      Ved å trykke på enhetens menyknapp mens du ser på enten grafen eller kartet, får
+                                      du muligheten til å dele et bilde av dette på Facebook, sammen med en tekstlig
+                                      oppsummering.\n\nNår du velger å dele grafen eller kartet, fungerer dette etter
+                                      \"hva du ser er hva du får\"-prinsippet. Dette betyr i praksis at du tar en kopi
+                                      av din egen skjerm i det du trykker på Facebook-knappen. Denne blir så delt til
+                                      din Facebook-profil, med tekst-sammendraget som bildetekst. Husk derfor å justere
+                                      kartet først, slik at det er skalert sånn som du ønsker å dele det.</string>
+    <string name="tutorialContent4_1">Kvalitet</string>
+    <string name="tutorialContent4_2">Kvaliteten på bilkjøringen er basert på tre faktorer;
+                                      Sjåføren, kjøretøyet og miljøet/bilveien.\n\nHvis to personer ønsker å
+                                      sammenligne sine egenskaper som sjåfør, så kan de gjøre dette ved å fjerne de
+                                      to andre faktorene. Med andre ord, bruke samme bil på samme kjørerute.</string>
+    <string name="tutorialContent5_1">Monitor-stil</string>
+    <string name="tutorialContent5_2">Før (eller underveis) på kjøreturen kan du bytte monitor-visning. Du kan også
+                                      velge din favoritt i applikasjons-innstillingene.\nDette
+                                      er DriSMo-meter visningen, også kalt hjulet:</string>
+    <string name="tutorialContent5_3">Legg merke til fargespekteret, som presenterer ulik kvalitetsgrad.</string>
+    <string name="tutorialContent6_1">Klar...</string>
+    <string name="tutorialContent6_2">Plasser enheten i en endelig (helst fastlåst) posisjon i bilen.</string>
+    <string name="tutorialContent7_1">Ferdig...</string>
+    <string name="tutorialContent7_2">Når du er klar til å starte, så berører du kalibrerings-skjermen for å
+                                      kalibrere enheten i forhold til dens posisjon i bilen.</string>
+    <string name="tutorialContent8_1">GÅ!</string>
+    <string name="tutorialContent8_2">For å få så nøyaktige målinger som mulig, </string>
+    <string name="tutorialContent8_3">bør enheten ikke flyttes</string>
+    <string name="tutorialContent8_4">etter at kalibreringen er gjort.</string>
+    <string name="tutorialContent8_5">For å avslutte/stoppe loggingen av kjøreturen, trykker du
+                                      enkelt og greit på tilbake-knappen.</string>
+
+    <string name="regional">Regionale</string>
+    <string name="language">Språk</string>
+    <string name="selectLanguage">Velg foretrukket språk.</string>
+    <string name="performance">Ytelse</string>
+    <string name="powerSaver">Aktiver Strømsparer</string>
+    <string name="powerSaverDesc">Reduser applikasjonens batteribruk.</string>
+    <string name="monitor">Monitor</string>
+    <string name="standardMonitor">Standard Monitor</string>
+    <string name="selectMonitor">Velg foretrukket monitor-stil.</string>
+    <string name="logGpsPos">Logg GPS-posisjon</string>
+    <string name="putTripOnMap">Kartlegg kjøreruta.</string>
+    <string name="communication">Kommunikasjon</string>
+    <string name="drismoMessenger">DriSMo Messenger</string>
+    <string name="sendAutoReplies">Send automatisk SMS-svar på henvendelser.</string>
+    <string name="replyToSms">Svar på SMS\'er</string>
+    <string name="autoReplyToSms">Svar automatisk på innkommende SMS-meldinger.</string>
+    <string name="replyToCall">Svar på samtaler</string>
+    <string name="autoReplyToCalls">Svar automatisk på innkommende anrop.</string>
+    <string name="thisIsYourReplyMsg">Din utgående melding.</string>
+    <string name="whatsThis">Hva er dette?</string>
+    <string name="getSettingsInfo">Les mer om meldingstjenesten.</string>
+    <string name="message">Melding</string>
+    <string name="autoReplyMessage">Dette er en forhåndsdefinert tekstmelding, sendt automatisk fra DriSMo.</string>
+    <string name="about">Om</string>
+    <string name="prefs">Innstillinger</string>
+    <string name="archive">Arkiv</string>
+    <string name="next">Neste</string>
+    <string name="close">Lukk</string>
+    <string name="cancel">Avbryt</string>
+    <string name="finish">Avslutt</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="view">Se på</string>
+    <string name="delete">Slett</string>
+    <string name="deleteAll">Slett Alle</string>
+    <string name="delAllTripData">HELE arkivet vil bli slettet.\n\nEr du sikker?</string>
+    <string name="noTripData">Ingen kjøreturer er tilgjengelig.</string>
+    <string name="beenDeleted">har blitt slettet!</string>
+    <string name="unableToDelete">Kunne ikke slette</string>
+    <string name="unableToDeleteAll">Kunne ikke slette alle filer.</string>
+    <string name="rename">Endre navn</string>
+    <string name="renameFailed">Kunne ikke endre navn!</string>
+    <string name="renameSuccess">Endringen var vellykket.</string>
+    <string name="newFileName">Nytt filnavn:</string>
+    <string name="fileNameInUse">Filnavnet er allerede i bruk.</string>
+    <string name="tutorial">Veiledning</string>
+    <string name="settings">Innstillinger</string>
+    <string name="delTripData">Er du sikker på at du vil slette denne kjøreturen?</string>
+    <string name="calibrating">Kalibrerer</string>
+    <string name="deviceCalibrated">Enheten er kalibrert!</string>
+    <string name="calibrate">Berør skjermen for å kalibrere enheten</string>
+    <string name="doNotMoveWhileCalibrating">Enheten må ikke være i bevegelse</string>
+    <string name="SDunavailable">SD-kortet er ikke tilgjengelig!</string>
+    <string name="error">Feil</string>
+    <string name="turnOnGps">Har du glemt å skru på GPS\'en?\nGPS-logging er aktivert i applikasjons-innstillingene.</string>
+    <string name="primitive">Primitiv</string>
+    <string name="wheel">Hjul</string>
+    <string name="map">Kart</string>
+    <string name="graph">Graf</string>
+    <string name="sentSms">En auto-SMS har blitt sendt.</string>
+    <string name="tooLong">Oi.. for lang melding!</string>
+    <string name="maxLength">Maks. tekst-lengde:</string>
+    <string name="yourLength">Din tekst-lengde:</string>
+    <string name="croppedMsg">Forkortet melding:</string>
+    <string name="deletingTrips">Sletter kjøreturer</string>
+    <string name="pleaseWait">Vennligst vent...</string>
+    <string name="timestampUnavailable">tidsdata utilgjengelig</string>
+    <string name="averageSpeed">Gj.snitt Hastighet:</string>
+    <string name="maxSpeed">Maks. Hastighet:</string>
+    <string name="excellentDriving">Utmerket Kjøring:</string>
+    <string name="goodDriving">Bra Kjøring:</string>
+    <string name="okDriving">OK Kjøring:</string>
+    <string name="badDriving">Dårlig Kjøring:</string>
+    <string name="averageQuality">Poengsum:</string>
+    <string name="totalDuration">Varighet:</string>
+    <string name="excellent">Utmerket</string>
+    <string name="good">Bra</string>
+    <string name="bad">Dårlig</string>
+    <string name="noGpsTrip">Det finnes ingen GPS-data for denne kjøreturen.</string>
+    <string name="noGpsActive">GPS\'en er ikke aktivert.</string>
+    <string name="waitingForGps">Venter på GPS-posisjon. \nDette kan ta en stund...</string>
+    <string name="keepVehicleStill">Stå i ro..</string>
+    <string name="driveVehicleForward">Kjør forover..</string>
+    <string name="aboutInfo">Les mer om applikasjonen.</string>
+    <string name="info">Informasjon</string>
+    <string name="shortInfo">Info</string>
+    <string name="upload">Last opp</string>
+    <string name="export">Eksporter</string>
+    <string name="showThresholds">Vis Grenseverdier</string>
+    <string name="hideThresholds">Skjul Grenseverdier</string>
+    <string name="trip">Kjøretur</string>
+    <string name="durationUnavailable">varighet utilgjengelig</string>
+    <string name="tripLength">Kjøreturens varighet:</string>
+    <string name="dimScreen">Demp Skjermbelysning</string>
+    <string name="dimScreenDesc">Tillat nedtonet skjerm på monitoren.</string>
+    <string name="calibrateInstruction1">Plasser enheten i sin endelige posisjon.</string>
+    <string name="calibrateInstruction2">La bilen stå i ro, og berør skjermen for å starte kalibreringen.
+                                         Kjør forover når du får klarsignal.</string>
+    <string name="speedUnit">Hastighetsmål</string>
+    <string name="speedUnitDesc">Velg foretrukket måleenhet for hastighet.</string>
+    <string name="noInfo">Ingen info. tilgjengelig.</string>
+    <string name="km_h">km/t</string>
+    <string name="m_s">m/s</string>
+    <string name="mph">mph</string>
+    <string name="share">Del</string>
+    <string name="shareOnFacebook">Vil du dele et sammendrag av denne kjøreturen på Facebook?</string>
+    <string name="fbMessagePosted">Meldingen ble postet på Facebook-veggen din.</string>
+    <string name="wallPostCancelled">Delingen ble avbrutt!</string>
+    <string name="wallPostFailed">Delingen mislyktes!</string>
+    <string name="fbAuthFailed">Facebook-autentiseringen feilet!</string>
+    <string name="fbAuthCancelled">Facebook-autentiseringen ble avbrutt!</string>
+    <string name="defaultFbShare">Test dine kjøreegenskaper du også! Prøv DriSMo for Android:
+                                  https://market.android.com/details?id=com.drismo</string>
+    <string name="duration">Varighet:</string>
+    <string name="distance">Distanse:</string>
+    <string name="myDrivingQuality">Min kjørekvalitet</string>
+    <string name="loading">Laster...</string>
+    <string name="noGpsDataAvailable">GPS-data er ikke tilgjengelig</string>
+    <string name="between">mellom</string>
+    <string name="and">og</string>
+    <string name="was">var</string>
+    <string name="From">Fra:</string>
+    <string name="To">Til:</string>
+    <string name="unknown">ukjent</string>
+    <string name="uploading">Laster opp...</string>
+    <string name="hasBeenShared">Kjøreturen har blitt delt.</string>
+    <string name="problemUpload">Et problem oppsto under opplasting.</string>
+    <string name="problemGraph">En feil oppsto under bildegenerering av grafen.</string>
+    <string name="generatingGraph">Genererer graf...</string>
+    <string name="currentlyMonitoring">Måler nå kjørekvalitet.</string>
+    <string name="monitoringQuality">Måler kjørekvalitet</string>
+    <string name="audioFeedback">Tilbakemelding via tale</string>
+    <string name="enableTTS">Aktiver Tekst-Til-Tale</string>
+    <string name="enableTTSDesc">Hør nåværende kvalitet via tekst til tale. (engelsk)</string>
+    <string name="feedbackFrequency">Hyppighet</string>
+    <string name="feedbackFrequencyDesc">Hvor ofte du ønsker kvaliteten opplest.</string>
+    <string name="every1min">Hvert minutt</string>
+    <string name="every5min">Hvert 5. minutt</string>
+    <string name="every10min">Hvert 10. minutt</string>
+    <string name="loadingTrips">Laster filer...</string>
+    <string name="gpsNotAvailable">- GPS-data ikke tilgjengelig -</string>
+    <string name="previous">Forrige</string>
+    <string name="menuToChangeMonitor">Bruk meny-knappen for å velge en alternativ monitor.</string>
+
+</resources>

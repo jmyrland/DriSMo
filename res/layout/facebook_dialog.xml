@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp" android:layout_height="125dp">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:padding="5dp"
+		android:layout_alignParentTop="true">
+		<TextView android:text="@string/shareOnFacebook"
+			android:padding="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+			android:id="@+id/FacebookShareButton" android:text="@string/yes"
+			android:layout_width="120dp" android:layout_gravity="center_horizontal"
+			android:layout_centerHorizontal="true" android:onClick="share"
+			android:layout_margin="2dp"
+			android:padding="5dp"/>
+		<Button
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+			android:id="@+id/FacebookShareNotButton" android:text="@string/no"
+			android:layout_width="120dp" android:layout_gravity="center_horizontal"
+			android:layout_centerHorizontal="true" android:onClick="doNotShare"
+			android:layout_margin="2dp"
+			android:padding="5dp"/>
+	</LinearLayout>
+</RelativeLayout>

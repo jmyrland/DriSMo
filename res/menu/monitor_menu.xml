@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/primitive"
+          android:icon="@drawable/ic_menu_monitor_primitive"
+          android:title="@string/primitive"
+    />
+    <item android:id="@+id/wheel"
+          android:icon="@drawable/ic_launcher_drismo"
+          android:title="@string/wheel"
+    />
+    <item android:id="@+id/map"
+          android:icon="@drawable/ic_menu_monitor_osm"
+          android:title="@string/map"
+    />
+    <item android:id="@+id/debug"
+          android:icon="@drawable/ic_menu_monitor_debug"
+          android:title="debug"
+    />
+</menu>

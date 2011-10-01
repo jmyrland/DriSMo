@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/layout_root"
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:padding="2dp"
+      >
+
+    <TextView android:id="@+id/calibrationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FFF"
+            android:text="@string/calibrating"
+            />
+
+    <LinearLayout android:id="@+id/calibrationTopLayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calibrationTitle">
+
+        <ImageView android:id="@+id/calibrationImage"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:gravity="center_vertical"
+                  android:padding="10dp"
+                  />
+
+        <TextView android:id="@+id/calibrationText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:gravity="center_vertical"
+                  android:textColor="#FFF"
+                  android:textSize="20sp"
+                  android:padding="10dp"
+                  />
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/calibrationInfo"
+              android:text="@string/doNotMoveWhileCalibrating"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#CCC"
+              android:layout_below="@id/calibrationTopLayer"
+              />
+
+</RelativeLayout>
