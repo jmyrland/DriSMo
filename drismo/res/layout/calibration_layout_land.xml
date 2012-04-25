@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calibrationLayout"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/img_calibration_step1">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:paddingLeft="30dp"
+                android:text="@string/calibrateInstruction1"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/img_calibration_andy" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/img_calibration_step2_ls" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:text="@string/calibrateInstruction2"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+</LinearLayout>
+
+

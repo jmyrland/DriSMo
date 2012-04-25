@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="feedbackFrequency">
+   <item>@string/every1min</item>
+   <item>@string/every5min</item>
+   <item>@string/every10min</item>
+</string-array>
+ 
+<string-array name="feedbackFrequencyValues">
+   <item>1</item>
+   <item>5</item>
+   <item>10</item>
+</string-array>
+
+<string-array name="monitorChoice">
+   <item>@string/primitive</item>
+   <item>@string/wheel</item>
+   <item>@string/map</item>
+</string-array>
+
+<string-array name="monitorChoiceValues">
+   <item>1</item>
+   <item>2</item>
+   <item>3</item>
+</string-array>
+
+<string-array name="languageSelection">
+   <item>@string/english</item>
+   <item>@string/norwegian</item>
+</string-array>
+
+<string-array name="languageSelectionValues">
+   <item>en</item>
+   <item>no</item>
+</string-array>
+
+<string-array name="speedUnits">
+   <item>@string/km_h</item>
+   <item>@string/mph</item>
+   <item>@string/m_s</item>
+</string-array>
+
+<string-array name="speedUnitValues">
+   <item>km/h</item>
+   <item>mph</item>
+   <item>m/s</item>
+</string-array>
+
+</resources>

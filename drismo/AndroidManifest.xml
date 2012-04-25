@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.drismo"
+      android:versionCode="17"
+      android:versionName="1.0.3"
+      android:installLocation="auto">
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+
+    <uses-sdk android:minSdkVersion="7"
+              android:targetSdkVersion="8" />
+
+    <application android:label="DriSMo" android:icon="@drawable/ic_launcher_drismo">
+
+        <activity android:name=".gui.MainActivity"
+                  android:label="@string/app_name"
+                  android:configChanges="locale"
+                  android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".gui.monitor.PrimitiveMonitor"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".gui.monitor.DebugMonitor"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".gui.monitor.QualityMeterMonitor"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".gui.monitor.MapMonitor"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".gui.ViewArchive"
+                  android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity android:name=".gui.Preferences"
+                  android:label="@string/prefs" />
+
+        <activity android:name=".gui.AboutPopup"
+                  android:label="@string/about"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:layout_width="fill_parent" />
+
+        <activity android:name=".gui.InfoPopup"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:layout_width="fill_parent" />
+
+        <activity android:name=".gui.Tutorial"
+                  android:label="@string/tutorial"
+                  android:theme="@android:style/Theme.NoTitleBar" />
+
+        <activity android:name=".gui.ViewTrip"
+                  android:configChanges="orientation"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".gui.BasicMap"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".gui.ViewExtraInfo"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".facebook.ShareOnFacebook"
+	              android:theme="@android:style/Theme.Dialog" />
+
+        <receiver android:name=".logic.sms.SMSReceiver" android:enabled="false">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+</manifest> 

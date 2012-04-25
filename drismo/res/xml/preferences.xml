@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/regional">
+
+        <ListPreference
+                android:title="@string/language"
+                android:summary="@string/selectLanguage"
+                android:key="languageSelection"
+                android:defaultValue="en"
+                android:entries="@array/languageSelection"
+                android:entryValues="@array/languageSelectionValues"
+                android:negativeButtonText="@string/cancel" />
+
+        <ListPreference
+                android:title="@string/speedUnit"
+                android:summary="@string/speedUnitDesc"
+                android:key="speedUnitSelection"
+                android:defaultValue="km/h"
+                android:entries="@array/speedUnits"
+                android:entryValues="@array/speedUnitValues"
+                android:negativeButtonText="@string/cancel" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/performance">
+
+        <CheckBoxPreference
+                android:title="@string/powerSaver"
+                android:summary="@string/powerSaverDesc"
+                android:key="powerSaver"
+                android:defaultValue="false" />
+
+        <CheckBoxPreference
+                android:title="@string/dimScreen"
+                android:summary="@string/dimScreenDesc"
+                android:key="dimScreen"
+                android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/monitor">
+
+        <ListPreference
+                android:title="@string/standardMonitor"
+                android:summary="@string/selectMonitor"
+                android:key="monitorChoice"
+                android:defaultValue="2"
+                android:entries="@array/monitorChoice"
+                android:entryValues="@array/monitorChoiceValues"
+                android:negativeButtonText="@string/cancel" />
+
+        <CheckBoxPreference
+                android:title="@string/logGpsPos"
+                android:defaultValue="true"
+                android:summary="@string/putTripOnMap"
+                android:key="logGps" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/communication">
+
+        <PreferenceScreen
+            android:key="autoMsgMenu"
+            android:title="@string/drismoMessenger"
+            android:summary="@string/sendAutoReplies">
+
+            <CheckBoxPreference
+                    android:title="@string/replyToSms"
+                    android:defaultValue="false"
+                    android:summary="@string/autoReplyToSms"
+                    android:key="replySMS" />
+            <CheckBoxPreference
+                    android:title="@string/replyToCall"
+                    android:defaultValue="false"
+                    android:summary="@string/autoReplyToCalls"
+                    android:key="replyCall" />
+            <EditTextPreference
+                    android:title="@string/message"
+                    android:defaultValue="@string/autoReplyMessage"
+                    android:summary="@string/thisIsYourReplyMsg"
+                    android:key="customReplyMsg"
+                    android:positiveButtonText="@string/ok"
+                    android:negativeButtonText="@string/cancel"
+                    android:enabled="false" />
+            <Preference
+                    android:title="@string/whatsThis"
+                    android:summary="@string/getSettingsInfo"
+                    android:key="autoReplyInfo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/audioFeedback">
+
+        <CheckBoxPreference
+                android:title="@string/enableTTS"
+                android:defaultValue="true"
+                android:summary="@string/enableTTSDesc"
+                android:key="useTts" />
+        <ListPreference
+                android:title="@string/feedbackFrequency"
+                android:summary="@string/feedbackFrequencyDesc"
+                android:key="TTSFrequency"
+                android:dependency="useTts"
+                android:defaultValue="5"
+                android:entries="@array/feedbackFrequency"
+                android:entryValues="@array/feedbackFrequencyValues"
+                android:negativeButtonText="@string/cancel" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/info">
+        <Preference
+            android:key="prefAbout"
+            android:title="@string/about"
+            android:summary="@string/aboutInfo"
+        />
+    </PreferenceCategory>
+
+</PreferenceScreen>
