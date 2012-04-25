@@ -1,4 +1,0 @@
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_focused="false" android:drawable="@drawable/img_tutorial_continue"/>
-    <item android:state_focused="true" android:drawable="@drawable/img_tutorial_continue_focused"/>
-</selector>

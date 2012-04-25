@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/graphThresholds"
-          android:icon="@drawable/ic_menu_graph_add_thresholds"
-          android:title="@string/showThresholds" />
-    <item android:id="@+id/postFacebook"
-          android:icon="@drawable/ic_dialog_facebook"
-          android:title="@string/share" />
-</menu>
