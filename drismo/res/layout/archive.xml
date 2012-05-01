@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/archiveScreen"
+    android:id="@+id/archiveLayout"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -9,10 +9,10 @@
     <ListView android:id="@+id/archiveList"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:cacheColorHint="#00000000"/>
 
-    <TextView android:id="@+id/SDunavailable"
+    <TextView android:id="@+id/archiveTextSdUnavailable"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:padding="20dp"
@@ -23,7 +23,7 @@
         android:visibility="gone"
     />
 
-    <TextView android:id="@+id/noTripData"
+    <TextView android:id="@+id/archiveTextNoTripData"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:padding="20dp"

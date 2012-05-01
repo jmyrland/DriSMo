@@ -39,12 +39,16 @@ import com.drismo.facebook.ShareOnFacebook;
 import com.drismo.model.Config;
 import com.drismo.model.Trip;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 
 /**
  * Handles displaying of a trip and shows the different info in different views.
  */
 public class ViewTrip extends TabActivity {
+
+    public static final String EXTRA_FILENAME = "EXTRA_FILENAME";
+
     private static int showThresholds;
     private Trip trip;
     private GraphView graphView;
@@ -62,7 +66,7 @@ public class ViewTrip extends TabActivity {
             Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
         } catch(Exception e){}
 
-        final String filename = getIntent().getStringExtra("File");     //gets the name of the file to display
+        final String filename = getIntent().getStringExtra(EXTRA_FILENAME);     //gets the name of the file to display
 
         tabHost = getTabHost();
 

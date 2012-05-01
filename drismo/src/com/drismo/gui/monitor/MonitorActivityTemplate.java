@@ -30,10 +30,13 @@ import android.os.Bundle;
 import android.os.PowerManager;
 import android.provider.Settings;
 import android.view.*;
-import android.widget.*;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 import com.drismo.R;
 import com.drismo.gui.ViewTrip;
-import com.drismo.logic.*;
+import com.drismo.logic.CalibrationListener;
+import com.drismo.logic.MonitorController;
+import com.drismo.logic.QualityListener;
 import com.drismo.model.Config;
 
 /**
@@ -235,7 +238,7 @@ public abstract class MonitorActivityTemplate extends Activity implements Calibr
     public void onBackPressed(){
         if(controller.isMonitoring()) {
             Intent intent = new Intent(getApplicationContext(), ViewTrip.class);
-            intent.putExtra("File", controller.getLogFileName());
+            intent.putExtra(ViewTrip.EXTRA_FILENAME, controller.getLogFileName());
             startActivity(intent);
         }
         stopQualityMonitoring();

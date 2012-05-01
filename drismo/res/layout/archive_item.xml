@@ -1,55 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-    android:paddingTop="15dp"
-    android:paddingBottom="15dp"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
     android:paddingLeft="20dp"
     android:paddingRight="10dp">
 
-  	<ImageView
-  		android:id="@+id/drismoD"
-  		android:layout_alignParentLeft="true"
-  		android:layout_width="wrap_content"
-  		android:layout_height="fill_parent"
+  	<ImageView android:id="@+id/archiveItemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:paddingRight="20dp"
-  		android:src="@drawable/img_archive_d"/>
+  		android:src="@drawable/img_archive_d" />
 
-    <TextView
-        android:id="@+id/listItemName"
+    <TextView android:id="@+id/archiveItemName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/drismoD"
+        android:layout_toRightOf="@id/archiveItemIcon"
+        android:textColor="@color/white"
         android:textSize="18sp"
         android:singleLine="true"
-        android:textColor="#ffffffff" />
+        android:ellipsize="end" />
 
-    <TextView
-        android:id="@+id/listItemDura"
+    <TextView android:id="@+id/archiveItemDuration"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/drismoD"
-        android:layout_below="@id/listItemName"
-        android:textSize="12sp"
+        android:layout_toRightOf="@id/archiveItemIcon"
+        android:layout_below="@id/archiveItemName"
         android:text="@string/durationUnavailable"
-        android:singleLine="true"
-        android:textColor="#ffffffff"
-        android:textStyle="italic"
-    />
+        style="@style/archiveItalicSubText" />
 
     <TextView
-        android:id="@+id/listItemDesc"
+        android:id="@+id/archiveItemDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/drismoD"
-        android:layout_below="@id/listItemDura"
-        android:textSize="12sp"
+        android:layout_toRightOf="@id/archiveItemIcon"
+        android:layout_below="@id/archiveItemDuration"
         android:text="@string/timestampUnavailable"
-        android:singleLine="true"
-        android:textColor="#ffffffff"
-        android:textStyle="italic"
+        style="@style/archiveItalicSubText"
     />
 
 </RelativeLayout>
