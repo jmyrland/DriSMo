@@ -212,15 +212,6 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
         };
     }
 
-    private String[] listToArray(List<String> prevTrips) {
-        String[] trips = new String[prevTrips.size()];
-
-        for(int i = 0; i < prevTrips.size(); i++) {
-            trips[i] = prevTrips.get(i);
-        }
-        return trips;
-    }
-
     public void showRenameDialog(final String oldFileName) {
         final EditText fileNameInput = createRenameEditText(oldFileName);
 
@@ -299,6 +290,15 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private String[] listToArray(List<String> stringList) {
+        String[] stringArray = new String[stringList.size()];
+
+        for(int i = 0; i < stringList.size(); i++) {
+            stringArray[i] = stringList.get(i);
+        }
+        return stringArray;
     }
 }
 
