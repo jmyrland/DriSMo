@@ -16,12 +16,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="Did some refactoring on the monstrous ViewArchive.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LISENCE-GPL-v3.0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\LISENCE-GPL-v3.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\README.txt" afterPath="" />
+    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
     </list>
     <ignored path="DriSMo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,12 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewArchive.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ViewArchive.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="0" selection-start="11049" selection-end="11049" vertical-scroll-proportion="0.0">
+            <state line="257" column="70" selection-start="10476" selection-end="10476" vertical-scroll-proportion="0.6075419">
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="e#3804#4171#0" expanded="true" />
                 <element signature="e#4160#4161#0" expanded="true" />
                 <element signature="e#4221#4554#0" expanded="true" />
@@ -97,15 +93,24 @@
                 <element signature="e#7324#7528#0" expanded="true" />
                 <element signature="e#7526#7527#0" expanded="true" />
                 <element signature="e#7820#7821#0" expanded="true" />
-                <element signature="e#7934#8502#0" expanded="true" />
-                <element signature="e#8491#8492#0" expanded="true" />
-                <element signature="e#8603#8925#0" expanded="true" />
-                <element signature="e#8914#8915#0" expanded="true" />
-                <element signature="e#9668#9881#0" expanded="true" />
-                <element signature="e#9866#9867#0" expanded="true" />
-                <element signature="e#11729#12011#0" expanded="true" />
-                <element signature="e#11984#11985#0" expanded="true" />
+                <element signature="e#7934#8115#0" expanded="true" />
+                <element signature="e#8104#8105#0" expanded="true" />
+                <element signature="e#8216#8538#0" expanded="true" />
+                <element signature="e#8527#8528#0" expanded="true" />
+                <element signature="e#9178#9391#0" expanded="true" />
+                <element signature="e#9376#9377#0" expanded="true" />
+                <element signature="e#11609#11891#0" expanded="true" />
+                <element signature="e#11864#11865#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditorInfo.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/view/inputmethod/EditorInfo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonitorActivityTemplate.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MonitorActivityTemplate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.49860334">
+            <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,10 +217,10 @@
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteAllTask.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteOneTask.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
         <option value="$PROJECT_DIR$/drismo.test/src/drismo/test/utils/TestFileComparator.java" />
         <option value="$PROJECT_DIR$/drismo.test/src/drismo/test/utils/TestFileController.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
       </list>
     </option>
   </component>
@@ -575,7 +580,11 @@
       <created>1335904466171</created>
       <updated>1335904466171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved lisence and readme outside project modules.">
+      <created>1335904627545</created>
+      <updated>1335904627545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -664,7 +673,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did some refactoring on the monstrous ViewArchive." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved lisence and readme outside project modules." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -678,6 +687,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Did some refactoring on the monstrous ViewArchive." />
+    <MESSAGE value="Moved lisence and readme outside project modules." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,35 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="0" selection-start="11049" selection-end="11049" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3804#4171#0" expanded="true" />
-            <element signature="e#4160#4161#0" expanded="true" />
-            <element signature="e#4221#4554#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="e#5472#5922#0" expanded="true" />
-            <element signature="e#5911#5912#0" expanded="true" />
-            <element signature="e#6027#6867#0" expanded="true" />
-            <element signature="e#6856#6857#0" expanded="true" />
-            <element signature="e#6970#7831#0" expanded="true" />
-            <element signature="e#7324#7528#0" expanded="true" />
-            <element signature="e#7526#7527#0" expanded="true" />
-            <element signature="e#7820#7821#0" expanded="true" />
-            <element signature="e#7934#8502#0" expanded="true" />
-            <element signature="e#8491#8492#0" expanded="true" />
-            <element signature="e#8603#8925#0" expanded="true" />
-            <element signature="e#8914#8915#0" expanded="true" />
-            <element signature="e#9668#9881#0" expanded="true" />
-            <element signature="e#9866#9867#0" expanded="true" />
-            <element signature="e#11729#12011#0" expanded="true" />
-            <element signature="e#11984#11985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="80" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
@@ -807,8 +788,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.49860334">
+        <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/view/inputmethod/EditorInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="70" selection-start="10476" selection-end="10476" vertical-scroll-proportion="0.6075419">
+          <folding>
+            <element signature="e#3804#4171#0" expanded="true" />
+            <element signature="e#4160#4161#0" expanded="true" />
+            <element signature="e#4221#4554#0" expanded="true" />
+            <element signature="e#4543#4544#0" expanded="true" />
+            <element signature="e#5472#5922#0" expanded="true" />
+            <element signature="e#5911#5912#0" expanded="true" />
+            <element signature="e#6027#6867#0" expanded="true" />
+            <element signature="e#6856#6857#0" expanded="true" />
+            <element signature="e#6970#7831#0" expanded="true" />
+            <element signature="e#7324#7528#0" expanded="true" />
+            <element signature="e#7526#7527#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
+            <element signature="e#7934#8115#0" expanded="true" />
+            <element signature="e#8104#8105#0" expanded="true" />
+            <element signature="e#8216#8538#0" expanded="true" />
+            <element signature="e#8527#8528#0" expanded="true" />
+            <element signature="e#9178#9391#0" expanded="true" />
+            <element signature="e#9376#9377#0" expanded="true" />
+            <element signature="e#11609#11891#0" expanded="true" />
+            <element signature="e#11864#11865#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

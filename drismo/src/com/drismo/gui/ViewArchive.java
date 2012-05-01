@@ -195,11 +195,6 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     private View.OnClickListener createRenameListener(final String fileName) {
         return new View.OnClickListener() {
             public void onClick(View v) {
-                EditText fileNameInput = new EditText(ViewArchive.this);
-                fileNameInput.setText(fileName.substring(0, fileName.length()-FileController.FILE_EXTENSION.length()));
-                fileNameInput.setImeOptions(EditorInfo.IME_ACTION_DONE);
-                fileNameInput.setSelection(fileNameInput.getText().length());
-                fileNameInput.setLines(1);
                 showRenameDialog(fileName);
                 quickActionMenu.dismiss();
             }
@@ -227,8 +222,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     }
 
     public void showRenameDialog(final String oldFileName) {
-        final EditText fileNameInput = new EditText(this);
-        fileNameInput.setText(oldFileName.substring(0, oldFileName.length()-FileController.FILE_EXTENSION.length()));
+        final EditText fileNameInput = createRenameEditText(oldFileName);
 
         new AlertDialog.Builder(ViewArchive.this)
             .setTitle(getString(R.string.rename))
@@ -241,6 +235,14 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
             })
             .setNegativeButton(getString(R.string.cancel), null)
             .show();
+    }
+
+    private EditText createRenameEditText(String fileName) {
+        EditText editText = new EditText(this);
+        editText.setText(fileName.substring(0, fileName.length() - FileController.FILE_EXTENSION.length()));
+        editText.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        editText.setSelection(editText.getText().length());
+        return editText;
     }
 
     private void tryRenameFile(EditText fileNameInput, String oldFile) {
