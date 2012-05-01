@@ -16,176 +16,12 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="Did some refactoring on the monstrous ViewArchive.">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LISENCE-GPL-v3.0.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/QuickActionMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteAllTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteOneTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/task/callback/TaskCompleteCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/utils/FileComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/utils/FileController.java" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.anim.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.array.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.attr.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.drawable.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.id.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.layout.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.menu.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.string.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.style.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\R.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\AsyncFacebookRunner.RequestListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\AsyncFacebookRunner.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\DialogError.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\Facebook.DialogListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\Facebook.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\FacebookError.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\FbDialog.FbWebViewClient.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\FbDialog.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\ShareOnFacebook.LoginDialogListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\ShareOnFacebook.UploadToFacebook.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\ShareOnFacebook.WallPostDialogListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\ShareOnFacebook.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\Util.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\facebook\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\AboutPopup.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\AppRater.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\BasicMap.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\GraphView.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\InfoPopup.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\MainActivity.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\Preferences.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\TripOverlay.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\Tutorial.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewArchive.DeleteAllTrips.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewArchive.DeleteOneTrip.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewArchive.PopulateArchive.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewArchive.RenameTrip.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewArchive.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewExtraInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\ViewTrip.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\CalibrationDialog.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\DebugMonitor.AccelerationGraph.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\DebugMonitor.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\MapMonitor.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\MonitorActivityTemplate.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\MonitorFactory.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\PrimitiveMonitor.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\QualityMeterMonitor.PointArrow.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\QualityMeterMonitor.QualityMeter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\QualityMeterMonitor.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\monitor\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\ActionItem.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\CustomPopupWindow.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\QuickAction.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\QuickActionAdapter.ViewHolder.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\QuickActionAdapter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\gui\quickaction\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\AccelerationHandler.MAQueue.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\AccelerationHandler.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\AccelerationObject.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\Calibration.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\CalibrationListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\FilteredAccelerationListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\JsonFunctions.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\LocationHandler.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\MonitorController.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\NewLocationListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\QualityListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\QualityRater.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\QualityToSpeech.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\TripLogger.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\MessageHandler.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\MyPhoneStateListener.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\SMSReceiver.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\logic\sms\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\AccelerationObject.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\Config.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\MapPoint.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\Quality.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\Trip.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\model\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\com\drismo\package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-10.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-11.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-12.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-13.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-14.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-15.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-16.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-17.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-18.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-19.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-20.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-21.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-22.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-23.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-24.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-25.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-3.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-4.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-5.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-6.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-7.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-8.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index-files\index-9.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\overview-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\overview-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\package-list" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\resources\inherit.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\JavaDoc\stylesheet.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\LISENCE-GPL-v3.0.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\src\com\drismo\gui\quickaction\QuickActionAdapter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo.test/Drismo.test.iml" afterPath="$PROJECT_DIR$/drismo.test/Drismo.test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/Drismo.iml" afterPath="$PROJECT_DIR$/drismo/Drismo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/gen/com/drismo/R.java" afterPath="$PROJECT_DIR$/drismo/gen/com/drismo/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/res/layout/archive.xml" afterPath="$PROJECT_DIR$/drismo/res/layout/archive.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/res/layout/archive_item.xml" afterPath="$PROJECT_DIR$/drismo/res/layout/archive_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/res/values/styles.xml" afterPath="$PROJECT_DIR$/drismo/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/ActionItem.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/ActionItem.java" />
     </list>
     <ignored path="DriSMo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -246,28 +82,29 @@
       <file leaf-file-name="ViewArchive.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="266" column="0" selection-start="10922" selection-end="10922" vertical-scroll-proportion="0.0">
+            <state line="270" column="0" selection-start="11049" selection-end="11049" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#3677#4044#0" expanded="true" />
-                <element signature="e#4033#4034#0" expanded="true" />
-                <element signature="e#4094#4427#0" expanded="true" />
-                <element signature="e#4416#4417#0" expanded="true" />
-                <element signature="e#5345#5795#0" expanded="true" />
-                <element signature="e#5784#5785#0" expanded="true" />
-                <element signature="e#5900#6740#0" expanded="true" />
-                <element signature="e#6729#6730#0" expanded="true" />
-                <element signature="e#6843#7704#0" expanded="true" />
-                <element signature="e#7197#7401#0" expanded="true" />
-                <element signature="e#7399#7400#0" expanded="true" />
-                <element signature="e#7693#7694#0" expanded="true" />
-                <element signature="e#7807#8375#0" expanded="true" />
-                <element signature="e#8364#8365#0" expanded="true" />
-                <element signature="e#8476#8798#0" expanded="true" />
-                <element signature="e#8787#8788#0" expanded="true" />
-                <element signature="e#9541#9754#0" expanded="true" />
-                <element signature="e#9739#9740#0" expanded="true" />
-                <element signature="e#11602#11884#0" expanded="true" />
-                <element signature="e#11857#11858#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3804#4171#0" expanded="true" />
+                <element signature="e#4160#4161#0" expanded="true" />
+                <element signature="e#4221#4554#0" expanded="true" />
+                <element signature="e#4543#4544#0" expanded="true" />
+                <element signature="e#5472#5922#0" expanded="true" />
+                <element signature="e#5911#5912#0" expanded="true" />
+                <element signature="e#6027#6867#0" expanded="true" />
+                <element signature="e#6856#6857#0" expanded="true" />
+                <element signature="e#6970#7831#0" expanded="true" />
+                <element signature="e#7324#7528#0" expanded="true" />
+                <element signature="e#7526#7527#0" expanded="true" />
+                <element signature="e#7820#7821#0" expanded="true" />
+                <element signature="e#7934#8502#0" expanded="true" />
+                <element signature="e#8491#8492#0" expanded="true" />
+                <element signature="e#8603#8925#0" expanded="true" />
+                <element signature="e#8914#8915#0" expanded="true" />
+                <element signature="e#9668#9881#0" expanded="true" />
+                <element signature="e#9866#9867#0" expanded="true" />
+                <element signature="e#11729#12011#0" expanded="true" />
+                <element signature="e#11984#11985#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,8 +133,10 @@
       <file leaf-file-name="ViewTrip.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="17" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="47" column="17" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -305,7 +144,7 @@
       <file leaf-file-name="MonitorActivityTemplate.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="45" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.21368715">
+            <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.49860334">
               <folding />
             </state>
           </provider>
@@ -336,10 +175,8 @@
       <file leaf-file-name="ArchiveListAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="84" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="76" column="84" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -352,6 +189,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="kvitvik" />
+      </list>
+    </option>
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -729,6 +571,11 @@
       <created>1335381066423</created>
       <updated>1335381066423</updated>
     </task>
+    <task id="LOCAL-00001" summary="Did some refactoring on the monstrous ViewArchive.">
+      <created>1335904466171</created>
+      <updated>1335904466171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -817,9 +664,9 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did some refactoring on the monstrous ViewArchive." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -830,6 +677,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Did some refactoring on the monstrous ViewArchive." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -887,10 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="84" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="76" column="84" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,28 +760,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="266" column="0" selection-start="10922" selection-end="10922" vertical-scroll-proportion="0.0">
+        <state line="270" column="0" selection-start="11049" selection-end="11049" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#3677#4044#0" expanded="true" />
-            <element signature="e#4033#4034#0" expanded="true" />
-            <element signature="e#4094#4427#0" expanded="true" />
-            <element signature="e#4416#4417#0" expanded="true" />
-            <element signature="e#5345#5795#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-            <element signature="e#5900#6740#0" expanded="true" />
-            <element signature="e#6729#6730#0" expanded="true" />
-            <element signature="e#6843#7704#0" expanded="true" />
-            <element signature="e#7197#7401#0" expanded="true" />
-            <element signature="e#7399#7400#0" expanded="true" />
-            <element signature="e#7693#7694#0" expanded="true" />
-            <element signature="e#7807#8375#0" expanded="true" />
-            <element signature="e#8364#8365#0" expanded="true" />
-            <element signature="e#8476#8798#0" expanded="true" />
-            <element signature="e#8787#8788#0" expanded="true" />
-            <element signature="e#9541#9754#0" expanded="true" />
-            <element signature="e#9739#9740#0" expanded="true" />
-            <element signature="e#11602#11884#0" expanded="true" />
-            <element signature="e#11857#11858#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3804#4171#0" expanded="true" />
+            <element signature="e#4160#4161#0" expanded="true" />
+            <element signature="e#4221#4554#0" expanded="true" />
+            <element signature="e#4543#4544#0" expanded="true" />
+            <element signature="e#5472#5922#0" expanded="true" />
+            <element signature="e#5911#5912#0" expanded="true" />
+            <element signature="e#6027#6867#0" expanded="true" />
+            <element signature="e#6856#6857#0" expanded="true" />
+            <element signature="e#6970#7831#0" expanded="true" />
+            <element signature="e#7324#7528#0" expanded="true" />
+            <element signature="e#7526#7527#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
+            <element signature="e#7934#8502#0" expanded="true" />
+            <element signature="e#8491#8492#0" expanded="true" />
+            <element signature="e#8603#8925#0" expanded="true" />
+            <element signature="e#8914#8915#0" expanded="true" />
+            <element signature="e#9668#9881#0" expanded="true" />
+            <element signature="e#9866#9867#0" expanded="true" />
+            <element signature="e#11729#12011#0" expanded="true" />
+            <element signature="e#11984#11985#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,14 +798,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="17" selection-start="1617" selection-end="1617" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="47" column="17" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.21368715">
+        <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.49860334">
           <folding />
         </state>
       </provider>
