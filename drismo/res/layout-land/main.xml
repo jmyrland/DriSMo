@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingTop="50dp"
-    android:background="@drawable/bg_ls">
+    android:background="@drawable/bg">
 
     <View android:id="@+id/focusDummy"
           android:layout_height="0px"

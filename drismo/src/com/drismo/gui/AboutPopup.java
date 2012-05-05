@@ -20,18 +20,16 @@
 
 package com.drismo.gui;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import com.drismo.R;
-import com.drismo.model.Config;
 
 /**
  * Create a modal window, with DriSMo (software and project) information.
  * @author The DriSMo Team
  */
-public class AboutPopup extends Activity {
+public class AboutPopup extends BaseActivity {
     /**
      * Get the window layout, and set the listener for the close button.
      * @param savedInstanceState Not beeing used, as <code>onSaveInstanceState(Bundle)</code> is not implemented.
@@ -39,9 +37,7 @@ public class AboutPopup extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
+
         this.setTitle(getString(R.string.about));
         setContentView(R.layout.about);
 

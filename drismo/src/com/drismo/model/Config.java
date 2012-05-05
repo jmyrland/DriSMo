@@ -307,6 +307,8 @@ public class Config {
      * @param lang Abbreviation for the language. (i.e. 'en' for english or 'no' for norwegian.)
      */
     public static void setConfigLocale(Context c, String lang){
+        if(lang == null) lang = Locale.getDefault().getLanguage();
+
         Configuration config = new Configuration();
         Locale loc = new Locale(lang, Locale.getDefault().getCountry());  // Using country code from phone settings.
         Locale.setDefault(loc); config.locale = loc;                      // Setting new (custom) locale.

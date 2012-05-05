@@ -1,6 +1,5 @@
 package com.drismo.facebook;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,9 +11,10 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 import com.drismo.R;
-import com.drismo.model.Config;
+import com.drismo.gui.BaseActivity;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 // Tutorial and code from: http://integratingstuff.com/2010/10/14/integrating-facebook-into-an-android-application/
@@ -24,7 +24,7 @@ import java.net.MalformedURLException;
  * This activity uses the Android Facebook SDK to share a link to Facebook via a Facebook application.<br />
  * To specify string to share, use <code>putExtra("facebookMessage", "this is the message");</code>
  */
-public class ShareOnFacebook extends Activity {
+public class ShareOnFacebook extends BaseActivity {
 
 	private static final String APP_ID = "324306136397";     // DriSMo Facebook Application ID
 	private static final String[] PERMISSIONS = new String[] {"publish_stream"};
@@ -68,9 +68,6 @@ public class ShareOnFacebook extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
 
         switch (this.getResources().getConfiguration().orientation)
         {

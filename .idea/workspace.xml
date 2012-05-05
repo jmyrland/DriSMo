@@ -16,9 +16,24 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="">
+    <list default="true" id="6ff07039-a654-4322-80f1-edb512327406" name="Default" comment="Introduced BaseActivity, and added some landscape specific resources.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/BaseActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/TutorialActivity.java" />
+      <change type="DELETED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\src\com\drismo\gui\Tutorial.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\res\drawable\bg_ls.png" afterPath="$PROJECT_DIR$/drismo/res/drawable-land/bg.png" />
+      <change type="MOVED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\res\layout\main_landscape.xml" afterPath="$PROJECT_DIR$/drismo/res/layout-land/main.xml" />
+      <change type="MOVED" beforePath="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\src\com\drismo\gui\ViewArchive.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ArchiveActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/AndroidManifest.xml" afterPath="$PROJECT_DIR$/drismo/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/gen/com/drismo/R.java" afterPath="$PROJECT_DIR$/drismo/gen/com/drismo/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/facebook/ShareOnFacebook.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/facebook/ShareOnFacebook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/AboutPopup.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/AboutPopup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/BasicMap.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/BasicMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/InfoPopup.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/InfoPopup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/MainActivity.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewExtraInfo.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewExtraInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drismo/src/com/drismo/model/Config.java" afterPath="$PROJECT_DIR$/drismo/src/com/drismo/model/Config.java" />
     </list>
     <ignored path="DriSMo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,41 +91,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewArchive.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="295" column="28" selection-start="11965" selection-end="11965" vertical-scroll-proportion="0.5117493">
+            <state line="268" column="42" selection-start="11371" selection-end="11371" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#8216#8538#0" expanded="true" />
-                <element signature="e#8527#8528#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditorInfo.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/view/inputmethod/EditorInfo.class">
+      <file leaf-file-name="TutorialActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/TutorialActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+            <state line="29" column="20" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2536#2693#0" expanded="true" />
+                <element signature="e#2682#2683#0" expanded="true" />
+                <element signature="e#2818#3014#0" expanded="true" />
+                <element signature="e#3003#3004#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drismo/gen/com/drismo/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="375" column="32" selection-start="21278" selection-end="21278" vertical-scroll-proportion="0.33275262">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskCompleteCallback.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/callback/TaskCompleteCallback.java">
+      <file leaf-file-name="tutorial.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/res/layout/tutorial.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RenameTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java">
+      <file leaf-file-name="bg.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/res/drawable-land/bg.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/model/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="80" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+            <state line="309" column="66" selection-start="9513" selection-end="9513" vertical-scroll-proportion="-21.115385">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tutorial2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/res/layout/tutorial2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewExtraInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewExtraInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="43" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,43 +182,7 @@
       <file leaf-file-name="ViewTrip.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="17" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonitorActivityTemplate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteAllTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteAllTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="23" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteOneTask.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteOneTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="35" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArchiveListAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="84" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0">
+            <state line="65" column="19" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,30 +207,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/drismo/res/layout/archive_item.xml" />
-        <option value="$PROJECT_DIR$/drismo/res/layout/archive.xml" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/callback/DeleteCompleteCallback.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/utils/FileComparator.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/QuickActionMenu.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/utils/FileController.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/callback/TaskCompleteCallback.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteAllTask.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteOneTask.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java" />
         <option value="$PROJECT_DIR$/drismo.test/src/drismo/test/utils/TestFileComparator.java" />
         <option value="$PROJECT_DIR$/drismo.test/src/drismo/test/utils/TestFileController.java" />
-        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" />
         <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/facebook/ShareOnFacebook.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/AboutPopup.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/BasicMap.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/InfoPopup.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewExtraInfo.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/model/Config.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/Tutorial.java" />
+        <option value="$PROJECT_DIR$/drismo/src/com/drismo/gui/TutorialActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -230,26 +258,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DriSMo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,23 +300,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DriSMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drismo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drismo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DriSMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drismo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drismo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DriSMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drismo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DriSMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="277" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="297" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="971" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="966" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="971" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
@@ -326,6 +408,13 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\res\layout-land" />
+      <recent name="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\res\drawable-ls" />
+      <recent name="C:\Users\Fredrik\Documents\Development\Github\DriSMo\drismo\res" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.Drismo">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -373,24 +462,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -416,6 +487,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -571,7 +660,11 @@
       <created>1335905879476</created>
       <updated>1335905879476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed semantics.">
+      <created>1335915562420</created>
+      <updated>1335915562420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -595,29 +688,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.6484375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2380137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24553572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39955357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22321428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34598213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32951945" sideWeight="0.7619863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292357" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14620535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977018" sideWeight="0.6484375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -660,7 +753,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed minor usability issue on the rename EditText." />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduced BaseActivity, and added some landscape specific resources." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -676,6 +769,8 @@
     <MESSAGE value="Did some refactoring on the monstrous ViewArchive." />
     <MESSAGE value="Moved lisence and readme outside project modules." />
     <MESSAGE value="Fixed minor usability issue on the rename EditText." />
+    <MESSAGE value="Fixed semantics." />
+    <MESSAGE value="Introduced BaseActivity, and added some landscape specific resources." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,78 +780,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/content/Intent.class">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/CalibrationDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="11" selection-start="19657" selection-end="19657" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/CustomPopupWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/QuickAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="11" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/quickaction/QuickActionMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="16" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.0" />
+        <state line="49" column="19" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/facebook/ShareOnFacebook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" />
+        <state line="71" column="0" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-15/android.jar!/android/view/inputmethod/EditorInfo.class">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/AboutPopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" />
+        <state line="41" column="0" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/callback/TaskCompleteCallback.java">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/BasicMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" />
+        <state line="44" column="43" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/RenameTask.java">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/InfoPopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="80" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" />
+        <state line="42" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/Preferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="19" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewExtraInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="43" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewTrip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="17" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0" />
+        <state line="65" column="19" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/monitor/MonitorActivityTemplate.java">
+    <entry file="file://$PROJECT_DIR$/drismo/res/layout/tutorial2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="12" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteAllTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="23" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.0" />
+    <entry file="file://$PROJECT_DIR$/drismo/res/drawable-land/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/task/DeleteOneTask.java">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="35" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" />
+        <state line="13" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/adapter/ArchiveListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/model/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="84" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0" />
+        <state line="309" column="66" selection-start="9513" selection-end="9513" vertical-scroll-proportion="-21.115385">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/ViewArchive.java">
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="28" selection-start="11965" selection-end="11965" vertical-scroll-proportion="0.5117493">
+        <state line="268" column="42" selection-start="11371" selection-end="11371" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#8216#8538#0" expanded="true" />
-            <element signature="e#8527#8528#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/res/layout/tutorial.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/src/com/drismo/gui/TutorialActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2536#2693#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
+            <element signature="e#2818#3014#0" expanded="true" />
+            <element signature="e#3003#3004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drismo/gen/com/drismo/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="375" column="32" selection-start="21278" selection-end="21278" vertical-scroll-proportion="0.33275262">
+          <folding />
         </state>
       </provider>
     </entry>

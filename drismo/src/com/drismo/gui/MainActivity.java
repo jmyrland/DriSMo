@@ -20,7 +20,6 @@
 
 package com.drismo.gui;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -29,17 +28,15 @@ import android.graphics.Typeface;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.telephony.PhoneStateListener;
-import android.telephony.TelephonyManager;
-import android.util.Log;
-import android.view.*;
+import android.view.MotionEvent;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.*;
+import android.widget.FrameLayout;
+import android.widget.TextView;
 import com.drismo.R;
-import com.drismo.gui.monitor.*;
+import com.drismo.gui.monitor.MonitorFactory;
 import com.drismo.model.Config;
-import com.drismo.logic.sms.MyPhoneStateListener;
 
 import java.util.List;
 import java.util.Locale;
@@ -48,7 +45,7 @@ import java.util.Locale;
  * This is the application main activity.
  * In this class we set up the main navigation, loading preferences and register listeners.
  */
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
     SharedPreferences prefs;
 
     /**
@@ -74,10 +71,6 @@ public class MainActivity extends Activity {
 
                                                                  // Creating font for main navigation TextViews.
         Typeface font = Typeface.createFromAsset(getAssets(), "eras-bold.ttf");
-
-        if(getResources().getConfiguration().orientation == 2) { // Horizontal
-            setContentView(R.layout.main_landscape);
-        }
 
                                                                 // MONITOR
         final FrameLayout startMonitor = (FrameLayout)this.findViewById(R.id.monitorFrame);
@@ -124,7 +117,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 viewArchive.requestFocus();
                 viewArchive.startAnimation(selectAnimation) ;
-                Intent myIntent = new Intent(MainActivity.this, ViewArchive.class);
+                Intent myIntent = new Intent(MainActivity.this, ArchiveActivity.class);
                 startActivity(myIntent);
             }
         };
@@ -141,7 +134,7 @@ public class MainActivity extends Activity {
                 if (ev.getAction() == MotionEvent.ACTION_DOWN) {
                     viewArchive.requestFocus();
                     viewArchive.startAnimation(selectAnimation) ;
-                    Intent myIntent = new Intent(MainActivity.this, ViewArchive.class);
+                    Intent myIntent = new Intent(MainActivity.this, ArchiveActivity.class);
                     startActivity(myIntent);
                 }
                 return true;
@@ -197,7 +190,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 info.requestFocus();
                 info.startAnimation(selectAnimation);
-                Intent myIntent = new Intent(MainActivity.this, Tutorial.class);
+                Intent myIntent = new Intent(MainActivity.this, TutorialActivity.class);
                 startActivity(myIntent);
             }
         };
@@ -214,7 +207,7 @@ public class MainActivity extends Activity {
                 if (ev.getAction() == MotionEvent.ACTION_DOWN) {
                     info.requestFocus();
                     info.startAnimation(selectAnimation);
-                    Intent myIntent = new Intent(MainActivity.this, Tutorial.class);
+                    Intent myIntent = new Intent(MainActivity.this, TutorialActivity.class);
                     startActivity(myIntent);
                 }
                 return true;
@@ -236,15 +229,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         getSetSharedPrefs();     // Initializing preferences
-                                 // Set custom locale from preferences
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
-
         firstRunPreferences();
 
         if(getFirstRun()) {      // Force tutorial on first run
-            startActivity(new Intent(MainActivity.this, Tutorial.class));
+            startActivity(new Intent(MainActivity.this, TutorialActivity.class));
             setRunned();
         }
 
@@ -278,8 +266,7 @@ public class MainActivity extends Activity {
     */
     public void setRunned() {
         SharedPreferences.Editor edit = prefs.edit();
-        edit.putBoolean("firstRun", false);
-        edit.commit();
+        edit.putBoolean("firstRun", false).commit();
     }
 
     /**

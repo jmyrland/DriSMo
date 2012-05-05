@@ -20,7 +20,6 @@
 
 package com.drismo.gui;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -37,7 +36,6 @@ import com.drismo.R;
 import com.drismo.adapter.ArchiveListAdapter;
 import com.drismo.facebook.ShareOnFacebook;
 import com.drismo.gui.quickaction.QuickActionMenu;
-import com.drismo.model.Config;
 import com.drismo.model.Trip;
 import com.drismo.task.DeleteAllTask;
 import com.drismo.task.DeleteOneTask;
@@ -50,7 +48,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class ViewArchive extends Activity implements TaskCompleteCallback {
+public class ArchiveActivity extends BaseActivity implements TaskCompleteCallback {
 
     private ListView archiveList;
     private ArchiveListAdapter archiveAdapter;
@@ -69,18 +67,13 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
         createFileOperationTasks();
         setupArchiveList();
 
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){
-            e.printStackTrace();
-        }
         setBackgroundFromInitialOrientation();
     }
 
     private void setBackgroundFromInitialOrientation() {
         if(getResources().getConfiguration().orientation == 2)
             findViewById(R.id.archiveLayout)
-                .setBackgroundDrawable(ViewArchive.this.getResources().getDrawable(R.drawable.bg_ls));
+                .setBackgroundDrawable(ArchiveActivity.this.getResources().getDrawable(R.drawable.bg));
     }
 
     private void createFileController() {
@@ -106,7 +99,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     private void setListItemListeners() {
         archiveList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(ViewArchive.this, ViewTrip.class);
+                Intent intent = new Intent(ArchiveActivity.this, ViewTrip.class);
                 intent.putExtra(ViewTrip.EXTRA_FILENAME, archiveAdapter.getItem(position));
                 startActivity(intent);
             }
@@ -153,15 +146,15 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
         return new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    Trip trip = new Trip(fileName, ViewArchive.this);
-                    Intent intent = new Intent(ViewArchive.this, ShareOnFacebook.class);
+                    Trip trip = new Trip(fileName, ArchiveActivity.this);
+                    Intent intent = new Intent(ArchiveActivity.this, ShareOnFacebook.class);
                     intent.putExtra("facebookMessage", trip.getTripSummary());
                     intent.putExtra("shareImage", false);
 
                     try {
                         startActivity(intent);
                     } catch(Exception e){
-                        Toast.makeText(ViewArchive.this, "Failed to post to facebook.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(ArchiveActivity.this, "Failed to post to facebook.", Toast.LENGTH_LONG).show();
                     }
                 } catch(IOException e) {
                     e.printStackTrace();
@@ -175,7 +168,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     private View.OnClickListener createDeleteListener(final String fileName) {
         return new View.OnClickListener() {
             public void onClick(View v) {
-               new AlertDialog.Builder(ViewArchive.this)
+               new AlertDialog.Builder(ArchiveActivity.this)
                   .setMessage(getString(R.string.delTripData)+"\n\n"+fileName)
                   .setTitle(R.string.delete)
                   .setCancelable(false)
@@ -204,7 +197,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     private View.OnClickListener createViewListener(final String fileName) {
         return new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(ViewArchive.this, ViewTrip.class);
+                Intent intent = new Intent(ArchiveActivity.this, ViewTrip.class);
                 intent.putExtra(ViewTrip.EXTRA_FILENAME, fileName);
                 startActivity(intent);
                 quickActionMenu.dismiss();
@@ -215,7 +208,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     public void showRenameDialog(final String oldFileName) {
         final EditText fileNameInput = createRenameEditText(oldFileName);
 
-        new AlertDialog.Builder(ViewArchive.this)
+        new AlertDialog.Builder(ArchiveActivity.this)
             .setTitle(getString(R.string.rename))
             .setMessage(getString(R.string.newFileName))
             .setView(fileNameInput)
@@ -275,7 +268,7 @@ public class ViewArchive extends Activity implements TaskCompleteCallback {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.deleteAll:
-                new AlertDialog.Builder(ViewArchive.this)
+                new AlertDialog.Builder(ArchiveActivity.this)
                         .setMessage(getString(R.string.delAllTripData))
                         .setTitle(R.string.deleteAll)
                         .setCancelable(false)

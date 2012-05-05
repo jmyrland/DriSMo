@@ -20,7 +20,10 @@
 
 package com.drismo.gui.monitor;
 
-import android.app.*;
+import android.app.Dialog;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -33,6 +36,7 @@ import android.view.*;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.drismo.R;
+import com.drismo.gui.BaseActivity;
 import com.drismo.gui.ViewTrip;
 import com.drismo.logic.CalibrationListener;
 import com.drismo.logic.MonitorController;
@@ -46,7 +50,7 @@ import com.drismo.model.Config;
  *
  * The rest (i.e. initiation, calibration, etc) is controlled/handled in <code>MonitorActivityTemplate</code>.
  */
-public abstract class MonitorActivityTemplate extends Activity implements CalibrationListener, QualityListener {
+public abstract class MonitorActivityTemplate extends BaseActivity implements CalibrationListener, QualityListener {
 
     private static final String TAG = "MonitorTemplate";
     private static final int NOTIFICATION_MONITORING = 0;
@@ -68,10 +72,6 @@ public abstract class MonitorActivityTemplate extends Activity implements Calibr
      */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
 
         if(Config.logGps()) {
             LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);

@@ -20,19 +20,17 @@
 
 package com.drismo.gui;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import com.drismo.R;
-import com.drismo.model.Config;
 
 /**
  * Create a modal window with header, content and close button.
  * The header and content is sent as extras to the intent, when this activity is started.
  */
-public class InfoPopup extends Activity {
+public class InfoPopup extends BaseActivity {
     /**
      * Fill the modal window with content from the intent extras.
      * @param savedInstanceState Not beeing used, as <code>onSaveInstanceState(Bundle)</code> is not implemented.
@@ -40,9 +38,6 @@ public class InfoPopup extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
         setContentView(R.layout.pref_info);
 
         // Header and content for the modal window should be sent as extras to this activity.

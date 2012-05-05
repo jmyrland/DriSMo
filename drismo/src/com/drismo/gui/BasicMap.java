@@ -20,9 +20,9 @@
 
 package com.drismo.gui;
 
-import android.graphics.*;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
 import com.drismo.R;
-import com.drismo.model.Config;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapController;
@@ -30,22 +30,16 @@ import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.ScaleBarOverlay;
 import org.osmdroid.views.util.constants.MapViewConstants;
 
-import android.app.Activity;
-import android.os.Bundle;
-
 /**
  * Used to display a archived trip on the map.
  * @see ViewTrip
  */
-public class BasicMap extends Activity implements MapViewConstants {
+public class BasicMap extends BaseActivity implements MapViewConstants {
 
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
         setContentView(R.layout.map_layout);
 
         Bundle extras = getIntent().getExtras();

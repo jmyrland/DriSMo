@@ -20,7 +20,6 @@
 
 package com.drismo.gui;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -36,7 +35,7 @@ import java.text.DecimalFormat;
  * Used to give a text presentation of the trip quality
  * @see ViewTrip
  */
-public class ViewExtraInfo extends Activity {
+public class ViewExtraInfo extends BaseActivity {
 
     /**
      * Set up the layout, and fill in all the values
@@ -45,9 +44,6 @@ public class ViewExtraInfo extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        try {
-            Config.setConfigLocale(getBaseContext(), Config.getLanguageCode());
-        } catch(Exception e){}
         setContentView(R.layout.infoview);
 
         TextView avgSpeed = (TextView) findViewById(R.id.avgspeedvalue);

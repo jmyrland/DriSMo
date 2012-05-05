@@ -42,7 +42,7 @@
                   android:theme="@android:style/Theme.NoTitleBar">
         </activity>
 
-        <activity android:name=".gui.ViewArchive"
+        <activity android:name=".gui.ArchiveActivity"
                   android:theme="@android:style/Theme.NoTitleBar" />
 
         <activity android:name=".gui.Preferences"
@@ -57,7 +57,7 @@
                   android:theme="@android:style/Theme.Dialog"
                   android:layout_width="fill_parent" />
 
-        <activity android:name=".gui.Tutorial"
+        <activity android:name=".gui.TutorialActivity"
                   android:label="@string/tutorial"
                   android:theme="@android:style/Theme.NoTitleBar" />
 
