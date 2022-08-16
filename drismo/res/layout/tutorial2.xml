@@ -26,7 +26,7 @@
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
                       android:gravity="center"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="30sp"
                       android:shadowColor="#001355"
                       android:shadowRadius="1.6"
@@ -40,7 +40,7 @@
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
                       android:paddingTop="10dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
 
             <ImageView android:id="@+id/tutorialImg"
@@ -60,7 +60,7 @@
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
                       android:paddingBottom="10dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
 
         </LinearLayout>
