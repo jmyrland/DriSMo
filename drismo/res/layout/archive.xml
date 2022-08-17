@@ -29,7 +29,7 @@
         android:padding="20dp"
         android:gravity="center"
         android:textSize="25sp"
-        android:textColor="#ffffffff"
+        android:textColor="#282828"
         android:text="@string/noTripData"
         android:visibility="gone"
     />

@@ -26,7 +26,7 @@
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
                       android:gravity="center"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="30sp"
                       android:shadowColor="#001355"
                       android:shadowRadius="1.6"
@@ -40,7 +40,7 @@
                       android:paddingTop="10dp"
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
             <TextView android:id="@+id/tutorialTxt3"
                       android:text="@string/tutorialContent8_3"
@@ -48,7 +48,7 @@
                       android:layout_height="wrap_content"
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
             <TextView android:id="@+id/tutorialTxt4"
                       android:text="@string/tutorialContent8_4"
@@ -56,7 +56,7 @@
                       android:layout_height="wrap_content"
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
 
             <ImageView android:id="@+id/tutorialImg"
@@ -75,7 +75,7 @@
                       android:paddingLeft="20dp"
                       android:paddingRight="20dp"
                       android:paddingBottom="10dp"
-                      android:textColor="#ffffffff"
+                      android:textColor="#282828"
                       android:textSize="20sp" />
 
         </LinearLayout>
